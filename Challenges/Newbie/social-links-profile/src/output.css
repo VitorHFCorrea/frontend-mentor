@@ -277,6 +277,9 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-screen {
+    max-height: 100vh;
+  }
   .min-h-full {
     min-height: 100%;
   }
