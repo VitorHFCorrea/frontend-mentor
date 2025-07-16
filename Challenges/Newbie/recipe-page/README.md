@@ -1,9 +1,9 @@
-# Recipe Page
+# Frontend Mentor - Recipe Page
 
 ![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=%23222222&link=https%3A%2F%2Fhtml.spec.whatwg.org%2F)
 ![Static Badge](https://img.shields.io/badge/CSS-%23663399?style=for-the-badge&logo=css&logoColor=%23663399&labelColor=%23222222&link=https%3A%2F%2Fwww.w3.org%2FStyle%2FCSS%2F)
 
-This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of Contents
 
@@ -45,37 +45,39 @@ This project is focused on building semantic HTML structure and using modern CSS
 
 ## How to Use
 
-To view the project locally:
+To view the project locally on your machine:
 
-1. Clone the repository:
+1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/VitorHFCorrea/frontend-mentor.git
+  ```
 
-   ```bash
-   git clone https://github.com/VitorHFCorrea/Recipe-Page.git
-   ```
+2. **Navigate to the project folder:**
+  ```bash
+  cd frontend-mentor/Challenges/Newbie/social-links-profile
+  ```
 
-2. Open the file named index.html in your browser.
+3. **Open index.html in your browser to view the site.**
 
 ## My Process
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic **HTML5**
+- **CSS** custom properties
 - Flexbox
-- Responsive design techniques
+- Responsive design
 - Mobile-first workflow
 
 ### What I Practiced
 
-During this challenge, I practiced:
+While building this project, I practiced:
 
 - Semantic structure in HTML
 - Organizing styles using a clean and scalable CSS approach
 - Responsiveness using media queries
 - Accessibility best practices
 - Following a design spec closely
-
-I also had the opportunity to practice organizing components logically and learned the importance of maintaining consistent spacing, font sizing, and color tokens throughout the project.
 
 ## Author
 
