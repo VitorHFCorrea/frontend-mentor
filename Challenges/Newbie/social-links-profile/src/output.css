@@ -635,6 +635,11 @@
       }
     }
   }
+  .sm\:-mt-5 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * -5);
+    }
+  }
   .sm\:w-50 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 50);
