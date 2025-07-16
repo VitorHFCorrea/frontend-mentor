@@ -1,0 +1,16 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node modules if any challenge uses JS tooling
+**/node_modules/
+
+# Ignore build/dist folders (if used)
+**/dist/
+**/build/
+
+# Ignore screenshots if not versioned
+**/screenshots/
+
+# Ignore temp files
+*.log
+*.tmp
