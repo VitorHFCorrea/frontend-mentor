@@ -1,7 +1,7 @@
 # Frontend Mentor - Recipe Page
 
-![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=%23222222&link=https%3A%2F%2Fhtml.spec.whatwg.org%2F)
-![Static Badge](https://img.shields.io/badge/CSS-%23663399?style=for-the-badge&logo=css&logoColor=%23663399&labelColor=%23222222&link=https%3A%2F%2Fwww.w3.org%2FStyle%2FCSS%2F)
+[![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=%23222222)](https://html.spec.whatwg.org/)
+[![Static Badge](https://img.shields.io/badge/CSS-%23663399?style=for-the-badge&logo=css&logoColor=%23663399&labelColor=%23222222)](https://www.w3.org/Style/CSS/Overview.en.html)
 
 This is my solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
