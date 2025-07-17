@@ -19,8 +19,6 @@ In this version, I personalized the project with **my own name, location, photo,
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
----
-
 ## Overview
 
 Users should be able to:
@@ -33,7 +31,7 @@ Users should be able to:
 
 | 📱 Mobile View (Mockup) | 🖥️ Desktop View (Full Page) |
 |----------------------|--------------------------|
-| <img src="./screenshots/mobile.png" width="300"/> | <img src="./screenshots/desktop.png" width="500"/> |
+| <img src="./screenshots/mobile.png" width="300"/> | <img src="./screenshots/desktop.png" width="600"/> |
 
 <p align="center"><em>Click the image to view it in full size and read the details clearly.</em></p>
 
@@ -82,8 +80,6 @@ To run this project locally on your machine:
 
 ### What I Practiced
 
-While building this project, I practiced:
-
 - Utility-first CSS with Tailwind
 - Layout structuring with `flex`, `gap`, and responsive sizing
 - Custom colors and fonts via Tailwind configuration
@@ -102,9 +98,9 @@ While building this project, I practiced:
 ```
 
 ## Useful Resources
-Tailwind CSS Docs – My go-to resource for understanding utility classes and responsive behavior.
+**Tailwind CSS Docs:** My go-to resource for understanding utility classes and responsive behavior.
 
-Frontend Mentor Challenge Page – Provided the design and user story that guided development.
+**Frontend Mentor Challenge Page:** Provided the design and user story that guided development.
 
 ## Author
 
