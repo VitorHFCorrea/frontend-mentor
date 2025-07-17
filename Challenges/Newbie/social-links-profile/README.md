@@ -34,7 +34,7 @@ Users should be able to:
 
 | 📱 Mobile View (Mockup) | 🖥️ Desktop View (Full Page) |
 |----------------------|--------------------------|
-| <img src="./screenshots/mobile.png" width="300"/> | <img src="./screenshots/desktop.png" width="500"/> |
+| <img src="./screenshots/mobile.png" width="300"/> | <img src="./screenshots/desktop.png" width="600"/> |
 
 <p align="center"><em>Click the image to view it in full size and read the details clearly.</em></p>
 
