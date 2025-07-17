@@ -1,6 +1,9 @@
 # Frontend Mentor - Social Links Profile
 
-This is my solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). It's a simple and responsive profile card built using semantic HTML and Tailwind CSS. This project helped me solidify core CSS layout skills and understand responsive design better.
+![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&labelColor=%23222222&link=https%3A%2F%2Fhtml.spec.whatwg.org%2F)
+![Static Badge](https://img.shields.io/badge/Tailwind%20CSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=%2306B6D4&labelColor=%23222222&color=%2306B6D4)
+
+This is my solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). It's a simple and responsive profile card built using semantic HTML and Tailwind CSS.
 
 In this version, I personalized the project with **my own name, location, photo, and social media links**, turning the generic layout into a fully customized profile card.
 
