@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- **Live Site:** [https://vitorhfcorrea.github.io/frontend-mentor/Challenges/Newbie/interactive-rating/](https://vitorhfcorrea.github.io/frontend-mentor/Challenges/Newbie/interactive-rating/)
+- **Live Site:** https://interactive-rating-beryl.vercel.app/
 - **GitHub Repository:** [https://github.com/VitorHFCorrea/frontend-mentor](https://github.com/VitorHFCorrea/frontend-mentor)
 
 ## How to Use
