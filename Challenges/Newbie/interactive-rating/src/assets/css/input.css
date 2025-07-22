@@ -19,7 +19,7 @@
   }
 
   main {
-    @apply flex items-center justify-center h-screen ;
+    @apply flex items-center justify-center h-screen -mt-15 sm:mt-0;
   }
 
   article {
