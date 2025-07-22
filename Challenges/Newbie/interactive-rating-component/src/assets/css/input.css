@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@theme{
+@theme {
   --color-myorange: hsl(25, 97%, 53%);
   --color-mygrey500: hsl(217, 12%, 63%);
   --color-mygrey900: hsl(213, 19%, 18%);
@@ -10,53 +10,71 @@
   --color-mygraylight: hsl(215, 20%, 17%);
   --color-mygraydark: hsl(214, 26%, 12%);
 
-  --font-display: "Overpass", "sans-serif";
+  --font-display: 'Overpass', 'sans-serif';
 }
 
 @layer base {
-
   body {
-    @apply bg-mygrey950
+    @apply bg-mygrey950;
   }
 
   main {
-    @apply flex items-center justify-center h-screen
+    @apply flex items-center justify-center h-screen;
   }
 
   article {
-    @apply flex flex-col justify-center gap-2 bg-linear-to-b from-mygraylight to-mygraydark p-6 m-6 rounded-2xl max-w-85
+    @apply flex flex-col justify-center gap-2 bg-linear-to-b from-mygraylight to-mygraydark p-6 m-6 rounded-2xl max-w-85;
   }
 
   .icon-container {
-    @apply w-9 h-9 bg-mygrey900 flex justify-center items-center rounded-full
+    @apply w-9 h-9 bg-mygrey900 flex justify-center items-center rounded-full;
   }
 
   .star-icon {
-    @apply w-3.5
+    @apply w-3.5;
   }
 
   h1 {
-    @apply font-display text-[1.3rem] text-white font-semibold mt-3
+    @apply font-display text-[1.3rem] sm:text-2xl text-white font-semibold mt-3;
   }
-  
-  p{
-    @apply font-display text-xs text-mygrey500 leading-5 mb-2.5
+
+  p {
+    @apply font-display text-xs sm:text-[0.8rem] text-mygrey500 leading-5 sm:leading-6 mb-2.5;
   }
 
   form {
-    @apply flex flex-col gap-5 mt-1
+    @apply flex flex-col gap-5 mt-1;
   }
 
-  .rating-container {
-    @apply flex justify-between items-center 
+  #rating-container {
+    @apply flex justify-between items-center;
   }
 
   .rating-btn {
-    @apply w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300 
+    @apply w-9 h-9 sm:w-11 sm:h-11 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300;
   }
 
   #submit-btn {
-    @apply w-full h-10 flex items-center justify-center pt-[3px] bg-myorange text-gray-800 mb-1 rounded-full font-display font-bold text-xs sm:text-xs transition-colors hover:bg-white hover:cursor-pointer duration-300 uppercase tracking-[0.15em]
+    @apply w-full h-10 flex items-center justify-center pt-[3px] bg-myorange text-gray-800 mb-1 rounded-full font-display font-bold text-xs sm:text-xs transition-colors hover:bg-white hover:cursor-pointer duration-300 uppercase tracking-[0.15em];
   }
 
+  .selected {
+    @apply bg-white text-mygraydark;
+  }
+
+  #thanks-container {
+    @apply items-center text-center ;
+  }
+
+  #thanks-img-container {
+    @apply pt-2.5 pb-3.5
+  }
+
+  .thanks-img{
+    @apply w-33
+  }
+
+  .rating-result{
+    @apply text-myorange bg-mygrey900 rounded-full px-3 pt-1.5 pb-0.5 text-xs sm:text-sm
+  }
 }
