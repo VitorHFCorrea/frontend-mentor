@@ -38,8 +38,8 @@ Users should be able to:
 
 | 📱 Mobile View | 🖥️ Desktop View |
 |----------------|-----------------|
-| <img src="src/assets/images/screenshots/mobile1.png" width="170"/> | <img src="src/assets/images/screenshots/desktop1.png" width="700"/> |
-| <img src="src/assets/images/screenshots/mobile2.png" width="170"/> | <img src="src/assets/images/screenshots/desktop2.png" width="700"/> |
+| <img src="./src/assets/images/screenshots/mobile1.png" width="170"/> | <img src="./src/assets/images/screenshots/desktop1.png" width="700"/> |
+| <img src="./src/assets/images/screenshots/mobile2.png" width="170"/> | <img src="./src/assets/images/screenshots/desktop2.png" width="700"/> |
 
 <p align="center"><em>Screenshots from the final implementation of the rating component.</em></p>
 
