@@ -19,15 +19,15 @@
   }
 
   main {
-    @apply flex items-center justify-center h-screen;
+    @apply flex items-center justify-center h-screen -mt-15 sm:mt-0;
   }
 
   article {
-    @apply flex flex-col justify-center gap-2 sm:gap-3 bg-linear-to-b from-mygraylight to-mygraydark p-6 sm:p-8 m-6 rounded-2xl sm:rounded-4xl max-w-85 sm:max-w-106;
+    @apply flex flex-col justify-center gap-4 sm:gap-3 bg-linear-to-b from-mygraylight to-mygraydark p-6 sm:p-8 m-6 rounded-2xl sm:rounded-4xl max-w-85 sm:max-w-106;
   }
 
   #icon-container {
-    @apply w-9 h-9 sm:w-13 sm:h-13 bg-mygrey900 flex justify-center items-center rounded-full;
+    @apply w-11 h-11 sm:w-13 sm:h-13 bg-mygrey900 flex justify-center items-center rounded-full;
   }
 
   .star-icon {
@@ -35,15 +35,15 @@
   }
 
   h1 {
-    @apply font-display text-[1.3rem] sm:text-3xl text-white font-semibold mt-3 sm:mt-6;
+    @apply font-display text-2xl sm:text-3xl text-white font-semibold mt-3 sm:mt-6;
   }
 
   p {
-    @apply font-display text-xs sm:text-base text-mygrey500 leading-5 sm:leading-6 mb-2.5;
+    @apply font-display text-sm sm:text-base text-mygrey500 leading-5 sm:leading-6 mb-2.5;
   }
 
   form {
-    @apply flex flex-col gap-5 sm:gap-9 mt-1;
+    @apply flex flex-col gap-6 sm:gap-9 mt-1;
   }
 
   #rating-container {
@@ -51,11 +51,11 @@
   }
 
   .rating-btn {
-    @apply w-9 h-9 pt-[3px]  sm:w-14 sm:h-14 sm:pt-[5px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs sm:text-lg transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300;
+    @apply w-11 h-11 sm:w-14 sm:h-14 pt-[5px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-sm sm:text-lg transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300;
   }
 
   #submit-btn {
-    @apply w-full h-10 sm:h-13 flex items-center justify-center pt-[3px] bg-myorange text-gray-800 mb-1 rounded-full font-display font-bold text-xs sm:text-base transition-colors hover:bg-white hover:cursor-pointer duration-300 uppercase tracking-[0.15em];
+    @apply w-full h-10 sm:h-13 flex items-center justify-center pt-[3px] bg-myorange text-gray-800 mb-1 rounded-full font-display font-bold text-sm sm:text-base transition-colors hover:bg-white hover:cursor-pointer duration-300 uppercase tracking-[0.15em];
   }
 
   .selected {
@@ -67,11 +67,11 @@
   }
 
   #thanks-img-container {
-    @apply mt-2.5 mb-5;
+    @apply m-2.5;
   }
 
   .thanks-img {
-    @apply w-33 sm:w-42;
+    @apply w-38 sm:w-42;
   }
 
   .rating-result {
