@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/output.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body class="bg-mygrey950">
+  <main class="flex items-center justify-center h-screen">
+    <article class="flex justify-center items-left flex-col gap-2 bg-linear-to-b from-mygraylight to-mygraydark p-6 m-6 rounded-2xl max-w-85">
+      <div class="w-9 h-9 bg-mygrey900 flex justify-center items-center rounded-full">
+        <img src="assets/images/icon-star.svg" alt="star icon" class="w-3.5">
+      </div>
+      <h1 class="font-display text-[1.3rem] text-white font-semibold mt-3">How did we do?</h1>
+      <p class="font-display text-xs text-mygrey500 leading-5 mb-2.5">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <form action="/submit-feedback" class="flex flex-col gap-5 mt-1">
+        <div class="flex justify-between items-center ">
+          <button class="w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300 ">1</button>
+          <button class="w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300 ">2</button>
+          <button class="w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300 ">3</button>
+          <button class="w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300 ">4</button>
+          <button class="w-9 h-9 pt-[3px] bg-mygrey900 text-mygrey500 rounded-full font-display font-bold text-xs transition-colors hover:bg-myorange hover:text-gray-800 hover:cursor-pointer duration-300">5</button>
+        </div>
+
+        <button class="w-full h-10 flex items-center justify-center pt-[3px] bg-myorange text-gray-800 mb-1.5 rounded-full font-display font-bold text-xs sm:text-xs transition-colors hover:bg-white hover:cursor-pointer duration-300 uppercase tracking-[0.15em]">Submit</button>
+      </form>
+
+    </article>
+  </main>
+
+
+  You selected <!-- Add rating here --> out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  <!-- Thank you state end -->
+
+</body>
+</html>
