@@ -26,7 +26,7 @@
     @apply flex flex-col justify-center gap-2 bg-linear-to-b from-mygraylight to-mygraydark p-6 m-6 rounded-2xl max-w-85;
   }
 
-  .icon-container {
+  #icon-container {
     @apply w-9 h-9 bg-mygrey900 flex justify-center items-center rounded-full;
   }
 
