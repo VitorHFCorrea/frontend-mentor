@@ -8,9 +8,6 @@
 **/dist/
 **/build/
 
-# Ignore screenshots if not versioned
-**/screenshots/
-
 # Ignore temp files
 *.log
 *.tmp
