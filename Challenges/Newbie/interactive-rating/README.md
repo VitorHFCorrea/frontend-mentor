@@ -64,12 +64,24 @@ To run this project locally:
    cd frontend-mentor/Challenges/Newbie/interactive-rating
    ```
 
-3. **Build the Tailwind CSS file:**
+3. **Make sure you have Node.js installed.**
+   ```bash
+   node -v
+   npm -v
+   ```
+   <p><em>If not installed, download it here: https://nodejs.org</em></p>
+
+4. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+5. **Build the Tailwind CSS file:**
    ```bash
    npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch
    ```
 
-4. **Open `index.html` in your browser.**
+6. **Open `index.html` in your browser.**
 
 > No build tools or frameworks are required beyond Tailwind CLI.
 
