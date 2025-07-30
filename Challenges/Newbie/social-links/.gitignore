@@ -18,7 +18,6 @@
 node_modules/
 dist/
 build/
-**output.css
 
 # Logs and temp
 *.log
